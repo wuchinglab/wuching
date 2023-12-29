@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import url("font.css");
+/* CSS Document */
+
+/*頁面結構*/
+#WRAP{ display:block; width:998px; height:1090px; margin:0px auto;}
+
+#HEADER{ display:block; width:998px; height:170px;}
+
+
+
+#CONTENT1{ display:block; width:998; height:865px;}
+#CONTENT1 #LT{ display:block; width:220px; height:835px; float:left; padding:14px;padding-right:0px;}
+#CONTENT1 #MAIN{
+	display:block;
+	width:740px;
+	height:865px;
+	float:left;
+	font-size: 15px;
+}
+
+#BLANK2{ display:block; width:998px; height:5px;}
+
+#FOOTER{ display:block; width:998px; height:66px;}
+
+/*新增CSS樣式，成為文字背景底圖。白色透明底圖。*/
+#WRAP #CONTENT1 #MAIN {
+	background-attachment: scroll;
+	background-image: url(imagine_ENGLISH/BK_CONTENT_LONG.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+div{
+	text-align: justify;
+	text-justify: distribute;
+	height: auto;
+	}
