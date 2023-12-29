@@ -1,0 +1,53 @@
+@charset "utf-8";
+@import url("Achievement_01_01.css");
+/* CSS Document */
+
+/*頁面結構*/
+#WRAP{
+	display:block;
+	width:998px;
+	height:auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#HEADER{ display:block; width:998px; height:170px;}
+
+
+
+#CONTENT1{
+	display:block;
+	width:998;
+	height:auto;
+}
+#CONTENT1 #LT{ display:block; width:162px; height:1085px; float:left; padding:14px;}
+#CONTENT1 #MAIN{
+	display:block;
+	width:618px;
+	height:auto;
+	float:left;
+	font-size: 15px;
+}
+#CONTENT1 #RT{ display:block; width:162px; height:1085px; float:right; padding:14px;}
+
+#BLANK2{
+	display:block;
+	width:998px;
+	height:auto;
+}
+
+#FOOTER{ display:block; width:998px; height:66px;}
+
+/*新增CSS樣式，成為文字背景底圖。白色透明底圖。*/
+#WRAP #CONTENT1 #MAIN {
+	background-attachment: inherit;
+	background-image: url(imagine/BK_CONTENT_LONG.png);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+div{
+	text-align: justify; text-justify: distribute;
+	}
